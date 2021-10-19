@@ -23,8 +23,10 @@ cd ~/ANI717_Robotics/robot_ws/
 ## Install Dependency
 Install `Inputs`, `Torch`, `Torchvision`, `Opencv`, `traitlets`, `multiexit`, `Adafruit-SSD1306` and `Adafruit_MotorHat`.<br/>
 ```
+pip3 install numpy==1.19.3
 python3 -m pip install inputs torch torchvision opencv-python
 python3 -m pip install Adafruit-SSD1306 Adafruit_MotorHat traitlets multiexit
+
 ```
 Install ROS2 dependency.<br/>
 ```
