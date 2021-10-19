@@ -34,11 +34,14 @@ sudo apt install python3-rosdep2
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 ```
-## Create i2c group & permissions
+## Create i2c group & permissions```
+
+```
 sudo groupadd i2c
 sudo chown :i2c /dev/i2c-1
 sudo chmod g+rw /dev/i2c-1
 sudo gpasswd -a $USER i2c
+```
 
 ## Add User to Input Group
 Run following command and reboot.<br/>
